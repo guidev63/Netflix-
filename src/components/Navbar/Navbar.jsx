@@ -13,12 +13,12 @@ const Navbar = () => {
       <div className="navbar-left">
         <img src={logo} alt="" />
         <ul>
-          <li>Home</li>
-          <li>TV Shows</li>
-          <li>Movies</li>
-          <li>New & Popular</li>
-          <li>My List</li>
-          <li>Browse by Languages</li>
+          <li>Inicio</li>
+          <li>Programas de TV</li>
+          <li>Filmes</li>
+          <li>Novo e popular      </li>
+          <li>Minha lista</li>
+          <li>Navegar por idiomas</li>
          
         </ul>
       </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
           <p>Sign Out of Netflix</p>
         </div>
         </div>
-
+        
       </div>
     </div>
   )
