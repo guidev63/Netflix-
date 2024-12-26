@@ -25,10 +25,10 @@ const Home = () => {
                 </div>
             </div>
             <div className="more-cards">
-            <TitleCards title={"Blockbuster Movies"} />
-            <TitleCards title={"Only on Netflix"} />
-            <TitleCards title={"Upcoming"} />
-            <TitleCards title={"Top Pics for You"} />
+            <TitleCards title={"Filmes de grande sucesso"} />
+            <TitleCards title={"Somente na Netflix"} />
+            <TitleCards title={"Por vir"} />
+            <TitleCards title={"Melhores fotos para você"} />
             </div>
             <Footer/>
         </div>

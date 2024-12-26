@@ -1,4 +1,34 @@
-.footer{
-    padding:  30px 4%;
+.footer {
+    padding: 30px 4%;
     max-width: 1000px;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+
+}
+
+.footer-icons img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.footer ul {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 15px;
+    margin-bottom: 30px;
+    list-style: none;
+   
+}
+
+.copyright-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
 }
