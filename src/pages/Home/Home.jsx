@@ -24,6 +24,7 @@ const Home = () => {
                     <TitleCards />
                 </div>
             </div>
+            
             <div className="more-cards">
             <TitleCards title={"Filmes de grande sucesso"} category={"top_rated"} />
             <TitleCards title={"Somente na Netflix"}  category={"popular"}/>
@@ -32,6 +33,7 @@ const Home = () => {
             </div>
             <Footer/>
         </div>
+        
     );
 }
 

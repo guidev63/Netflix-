@@ -1,34 +1,61 @@
-.titlecards{
-margin-top: 50px;
-margin-bottom:30px;
-}
-
-.title-cards h2{
-    margin-bottom:8px;
-}
-
-.card-list{
+.titlecards {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .titlecards h2 {
+    margin-bottom: 8px;
+    font-size: 1.5rem; /* Ajuste opcional para o tamanho da fonte */
+    color: #fff; /* Adicionado caso seja necessário */
+  }
+  
+  .card-list {
     display: flex;
-    gap:10px;
-   overflow-x:scroll;
-}
-.card-list::-webkit-scrollbar {
-    display: none;
-}
-
-.card-list img {
+    gap: 10px;
+    overflow-x: auto; /* Usar "auto" para rolagem automática quando necessário */
+    scroll-behavior: smooth; /* Permite rolagem suave */
+  }
+  
+  .card-list::-webkit-scrollbar {
+    display: none; /* Oculta a barra de rolagem no Chrome/Safari */
+  }
+  
+  .card-list img {
     width: 240px;
-    border-radius:4px;
+    border-radius: 4px;
     cursor: pointer;
-}
-.card-list .card{
+    object-fit: cover; /* Garante que a imagem se ajuste bem ao container */
+  }
+  
+  .card-list .card {
     position: relative;
-}
-.card-list .card p{
+    flex: 0 0 auto; /* Garante que o card não encolha e mantenha o tamanho */
+  }
+  
+  .card-list .card p {
     position: absolute;
     bottom: 10px;
     right: 10px;
+    margin: 0; /* Remove margens desnecessárias */
     text-decoration: none;
     color: #fff;
+    background: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente para melhor contraste */
+    padding: 5px 10px;
+    border-radius: 4px; /* Adiciona um pequeno arredondamento */
+    font-size: 0.9rem; /* Ajusta o tamanho da fonte */
+  }
+@media (max-width:800px){
+    .title-cards{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .title-cards h2{
+        font-size: 20px;
+    }
+    .card-list img{
+        width: 200px;
+    }
+    .card-list p{
+        font-size: 12px;
+    }
 }
-
